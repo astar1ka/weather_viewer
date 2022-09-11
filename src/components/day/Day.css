@@ -1,0 +1,58 @@
+.h2 {
+    font-size: 8px;
+}
+
+.day {
+    border: solid #012E4A 2px;
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+    position: relative;
+    margin: 3px;
+    line-height: 15px;
+    font-size: 16px;
+    box-sizing: content-box;
+    display: inline-block;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.today {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #012E4A 2px;
+    width: 674px;
+    height: 300px;
+    position: relative;
+    font-size: 34px;
+    padding: 40px;
+    line-height: 24px;
+    display: block;
+    overflow: clip;
+    box-sizing: border-box;
+    text-shadow: 5px 5px 5px #ddd;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.nameDay {
+    font-size: 150%;
+    display: block;
+}
+
+.dateDay {
+    font-size: 90%;
+    display: block;
+    margin: 4%;
+}
+
+.weatherName {
+    font-size: 90%;
+    display: block;
+    margin: 1%;
+}
+
+.temp {
+    font-size: 200%;
+}

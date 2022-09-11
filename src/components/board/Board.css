@@ -1,0 +1,17 @@
+.Board {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 8%;
+    padding: 2%;
+    z-index: 1;
+    background-color: #81BECE;
+    display: block;
+    border-radius: 25px;
+
+}
+
+.text {
+    display: block
+}
