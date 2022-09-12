@@ -18,14 +18,12 @@ class WeatherUploader extends React.Component {
   }
 
   componentDidMount = () => {
-    if (this.weatherURL) {
       fetch(this.weatherURL)
         .then(res => res.json())
         .then(data => {
           const dailyData = data.list.filter(reading => (new Date(reading.dt_txt).getDate() >= new Date().getDate()))
           this.setState({ days: dailyData })
         })
-    }
   }
 
   render() {
